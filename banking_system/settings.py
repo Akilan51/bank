@@ -29,6 +29,10 @@ ALLOWED_HOSTS = [
     if host.strip()
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "http://bank-production-9507.up.railway.app"
+]
+
 # Application definition
 
 INSTALLED_APPS = [
