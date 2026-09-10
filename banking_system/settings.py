@@ -30,7 +30,7 @@ ALLOWED_HOSTS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "http://bank-production-7c17.up.railway.app"
+    "https://bank-production-7c17.up.railway.app"
 ]
 
 # Application definition
